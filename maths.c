@@ -17,12 +17,23 @@ int main()
 	y = 0;
 	x = 0;
 	
-	printf("Enter two values to > "); scanf(" %i", &x);
+	printf("Enter two values to Subtract > "); scanf(" %i", &x);
 	printf(" > "); scanf(" %i", &y);
 	
-	z = x + y;
+	z = x - y;
 	
-	printf("%i + %i = %i\n", x, y, z);
+	printf("%i - %i = %i\n", x, y, z);
+	
+	z = 0;
+	y = 0;
+	x = 0;
+	
+	printf("Enter two values to Multiply > "); scanf(" %i", &x);
+	printf(" > "); scanf(" %i", &y);
+	
+	z = x * y;
+	
+	printf("%i * %i = %i\n", x, y, z);
 	
 	z = 0;
 	y = 0;
