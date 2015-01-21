@@ -39,6 +39,8 @@ int main()
 	y = 0;
 	x = 0;
 	
+	x = 0;
+	y = 0;
 	return 0;
 }
 
